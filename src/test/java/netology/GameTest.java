@@ -3,14 +3,14 @@ package netology;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 
-import java.util.ArrayList;
+
 
 public class GameTest {
 
     Game game = new Game();
     Player player1 = new Player(33, "Boy3000", 150);
     Player player2 = new Player(10, "Robokop", 150);
-    Player player3 = new Player(54, "Nagibator", 10);
+
     Player player4 = new Player(29, "PRO100Petya", 666);
 
     public void setup() {
